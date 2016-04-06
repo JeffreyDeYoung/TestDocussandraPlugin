@@ -7,7 +7,7 @@ import com.pearson.docussandra.plugininterfaces.NotifierPluginInterface;
  * This is a test notifier plugin.
  * @author https://github.com/JeffreyDeYoung
  */
-public class TestNotifierPlugin implements NotifierPluginInterface
+public class TestNotifierPlugin extends NotifierPluginInterface
 {
 
     public TestNotifierPlugin()
