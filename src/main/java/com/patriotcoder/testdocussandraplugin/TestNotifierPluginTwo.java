@@ -1,13 +1,13 @@
 package com.patriotcoder.testdocussandraplugin;
 
 import com.pearson.docussandra.domain.objects.Document;
-import com.pearson.docussandra.plugininterfaces.NotifierPluginInterface;
+import com.pearson.docussandra.plugininterfaces.NotifierPlugin;
 
 /**
  * This is a test notifier plugin.
  * @author https://github.com/JeffreyDeYoung
  */
-public class TestNotifierPluginTwo extends NotifierPluginInterface
+public class TestNotifierPluginTwo extends NotifierPlugin
 {
 
     public TestNotifierPluginTwo()
