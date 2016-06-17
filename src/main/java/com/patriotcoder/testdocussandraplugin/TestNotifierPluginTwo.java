@@ -21,7 +21,7 @@ public class TestNotifierPluginTwo extends NotifierPlugin
         //test implementation
         System.out.println("Test plugin two notified of mutation (" + type + ") for document: ");
         if(document != null){
-            System.out.println(document.objectAsString());
+            System.out.println(document.getObjectAsString());
         } else {
             System.out.println("null");
         }
